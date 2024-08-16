@@ -1,7 +1,7 @@
 body{
     background-color: #d6e1f0;
     margin: 0;
-    
+    padding: 0;
 }
 .content{
     background-color: white;
@@ -9,17 +9,23 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 1em;
 }
 img{
     width: 25em;
     height: 25em;
+    border-radius: 1em;
 }
 p{
     font-size: 15px;
-    width: 25em;
+    width: 26.667em;
+    text-align: center;
+    
 }
 h2{
-    width: 25em;
+    width: 16.6667em;
+    text-align: center;
+    
 }
 .qr{
     margin: 1em;
@@ -29,4 +35,14 @@ h2{
 .text{
     width: 25em;
     margin: 1em;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 900*/
+
+.text {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
