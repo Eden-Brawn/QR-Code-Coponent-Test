@@ -1,5 +1,5 @@
 body{
-    background-color: #d6e1f0;
+    background-color: hsl(212, 45%, 89%);
     margin: 0;
     padding: 0;
 }
@@ -20,12 +20,12 @@ p{
     font-size: 15px;
     width: 26.667em;
     text-align: center;
-    
+    color: hsl(216, 15%, 48%);
 }
 h2{
     width: 16.6667em;
     text-align: center;
-    
+    color: hsl(218, 44%, 22%);
 }
 .qr{
     margin: 1em;
